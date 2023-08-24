@@ -209,6 +209,76 @@ footer {
 /* Add additional styles for .intro, .features, .footer, etc. */
 
 /* For about.html */
+.about-content {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.about-content li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.about-content a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+.about-content a:hover {
+    color: #0056b3;
+}
+
+.about-content p:last-child {
+    margin-bottom: 0;
+}
+
+.objectives {
+    margin-top: 40px; /* Adjust spacing as needed */
+}
+
+.objectives h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.objectives ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.objectives li {
+    margin-bottom: 8px;
+}
+
+.objectives p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
 /* For proposal.html */
 .proposal {
@@ -277,6 +347,64 @@ footer {
 
 .proposal blockquote p:last-child {
     margin-bottom: 0;
+}
+
+/* sign page */
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.signature-pad {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.signature-instructions {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.signature-instructions ol {
+    padding-left: 20px;
+}
+
+.signature-instructions li {
+    margin-bottom: 10px;
+}
+
+#signatureCanvas {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.signature-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 /* cspro page */
@@ -670,6 +798,81 @@ footer {
 
 .stemcompro blockquote p {
     margin: 0;
+}
+
+/* extra page */
+.community-involvement,
+.evaluation,
+.Implementation,
+.req-resources,
+.Audience {
+    margin: 40px 0; /* Adjust spacing as needed */
+}
+
+/* Style for section headings */
+.community-involvement h1,
+.evaluation h1,
+.Implementation h1,
+.req-resources h1,
+.Audience h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style for section paragraphs */
+.community-involvement p,
+.evaluation p,
+.Implementation p,
+.req-resources p,
+.Audience p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+
+/* Style for numbered lists */
+.community-involvement ul,
+.evaluation ul,
+.Implementation ul,
+.req-resources ul,
+.Audience ul {
+    list-style: decimal;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for nested lists */
+.community-involvement ul ul,
+.evaluation ul ul,
+.Implementation ul ul,
+.req-resources ul ul,
+.Audience ul ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+/* Style for list items */
+.community-involvement li,
+.evaluation li,
+.Implementation li,
+.req-resources li,
+.Audience li {
+    margin-bottom: 5px;
+}
+
+/* Additional styles */
+.community-involvement,
+.evaluation,
+.Implementation,
+.req-resources,
+.Audience {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
 }
 
 /* Add styles for other pages as needed */
