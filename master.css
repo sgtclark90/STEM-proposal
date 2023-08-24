@@ -211,6 +211,186 @@ footer {
 /* For about.html */
 
 /* For proposal.html */
+.proposal {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.proposal h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.proposal p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 7.5%;
+}
+
+.proposal p:last-child {
+    margin-bottom: 0;
+}
+
+.proposal p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.proposal ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.proposal li {
+    margin-bottom: 10px;
+}
+
+.proposal em {
+    font-style: italic;
+    color: #007bff;
+}
+
+.proposal strong {
+    font-weight: bold;
+}
+
+.proposal blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.proposal blockquote p {
+    margin: 0;
+}
+
+.proposal blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* cspro page */
+.cspro {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.cspro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cspro p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.cspro p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cspro ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cspro li {
+    margin-bottom: 10px;
+}
+
+.cspro strong {
+    font-weight: bold;
+}
+
+.cspro blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cspro blockquote p {
+    margin: 0;
+}
+
+/* bootcamp page */
+
+.bootcamp {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.bootcamp h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.bootcamp p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.bootcamp p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bootcamp ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.bootcamp li {
+    margin-bottom: 10px;
+}
+
+.bootcamp strong {
+    font-weight: bold;
+}
+
+.bootcamp blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.bootcamp blockquote p {
+    margin: 0;
+}
 
 /* Add styles for other pages as needed */
 
