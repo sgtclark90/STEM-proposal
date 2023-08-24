@@ -1,0 +1,221 @@
+/* Global Styles */
+
+/* Reset default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #007bff;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+.hero-content {
+    max-width: 50%;
+    padding: 0 50px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.hero-image img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.intro-content {
+    max-width: 50%;
+    padding: 0 50px;
+}
+
+.intro-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #007bff; /* Accent color */
+}
+
+.intro-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro-image img {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+    color: #333333;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #007bff; /* Accent color */
+}
+
+.feature {
+    max-width: 300px;
+    margin: 0 auto 40px;
+}
+
+.feature img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer-navigation li {
+    margin: 0;
+}
+
+.footer-navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Additional Page-Specific Styles */
+
+/* Add additional styles for .intro, .features, .footer, etc. */
+
+/* For about.html */
+
+/* For proposal.html */
+
+/* Add styles for other pages as needed */
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    /* Responsive styles for smaller screens */
+}
