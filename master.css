@@ -392,6 +392,286 @@ footer {
     margin: 0;
 }
 
+/* mathclub page */
+.mathclub {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.mathclub h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mathclub p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.mathclub p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mathclub ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.mathclub li {
+    margin-bottom: 10px;
+}
+
+.mathclub strong {
+    font-weight: bold;
+}
+
+.mathclub blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mathclub blockquote p {
+    margin: 0;
+}
+
+/* mstutor page */
+.mstutor {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.mstutor h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.mstutor p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.mstutor p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mstutor ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.mstutor li {
+    margin-bottom: 10px;
+}
+
+.mstutor strong {
+    font-weight: bold;
+}
+
+.mstutor blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mstutor blockquote p {
+    margin: 0;
+}
+
+/* sftem page */
+.sfstem {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.sfstem h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sfstem p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.sfstem p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sfstem ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.sfstem li {
+    margin-bottom: 10px;
+}
+
+.sfstem strong {
+    font-weight: bold;
+}
+
+.sfstem blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.sfstem blockquote p {
+    margin: 0;
+}
+
+/* stemcompro page */
+.stemcompro {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.stemcompro h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.stemcompro p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.stemcompro p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.stemcompro ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.stemcompro li {
+    margin-bottom: 10px;
+}
+
+.stemcompro strong {
+    font-weight: bold;
+}
+
+.stemcompro blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ysexplorers page */
+.ysexplorers {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.ysexplorers h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.ysexplorers p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: left;
+    padding: 2%;
+}
+
+.ysexplorers p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ysexplorers ul {
+    list-style: disc;
+    padding-left: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ysexplorers li {
+    margin-bottom: 10px;
+}
+
+.ysexplorers strong {
+    font-weight: bold;
+}
+
+.ysexplorers blockquote {
+    margin: 30px 0;
+    padding: 15px 20px;
+    border-left: 4px solid #007bff;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.ysexplorers blockquote p {
+    margin: 0;
+}
+
+.stemcompro blockquote p {
+    margin: 0;
+}
+
 /* Add styles for other pages as needed */
 
 /* Responsive Styles */
