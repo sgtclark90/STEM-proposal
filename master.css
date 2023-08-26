@@ -350,61 +350,62 @@ footer {
 }
 
 /* sign page */
-.container {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.container h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.container p {
-    font-size: 16px;
-    color: #555;
-    margin-bottom: 20px;
-}
-
 .signature-pad {
+    background-color: #f7f7f7;
+    padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.signature-description {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
 }
 
 .signature-instructions {
     font-size: 16px;
-    margin-bottom: 10px;
+    color: #666;
+    margin-bottom: 20px;
 }
 
-.signature-instructions ol {
-    padding-left: 20px;
+.signature-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 
-.signature-instructions li {
-    margin-bottom: 10px;
-}
-
-#signatureCanvas {
+#nameInput {
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 10px;
+    flex-grow: 1;
 }
 
 .signature-btn {
     background-color: #007bff;
-    color: #ffffff;
+    color: #fff;
     border: none;
     border-radius: 4px;
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
+}
+
+.signature-btn:hover {
+    background-color: #0056b3;
+}
+
+#submissionCount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
 }
 
 /* cspro page */
