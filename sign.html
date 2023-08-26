@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css">
-    <title>STEM Program Proposal Signature Page</title>
+    <title>STEM Program Proposal</title>
 </head>
 <body>
     <header>
@@ -17,25 +17,20 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="proposal.html">Proposal</a></li>
                 <li><a href="https://www.cossatot.us/">CRSD Website</a></li>
-            </ul>
+             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <h2>STEM Program Proposal Signature Page</h2>
-        <p>Please provide your digital signature to support the creation of the STEM program at Cossatot River School District.</p>
+    <div class="signature-pad">
+        <p class="signature-description">Show Your Support!</p>
+        <p class="signature-instructions">Help us make this proposal a reality. Let us know you're on board by adding your name below.</p>
         
-        <div class="signature-pad">
-            <div class="signature-instructions">
-                <p>Instructions:</p>
-                <ol>
-                    <li>Click and hold your mouse or tap and hold on a touch screen to draw your signature in the box below.</li>
-                    <li>Once you're satisfied with your signature, click the "Sign" button.</li>
-                </ol>
-            </div>
-            <canvas id="signatureCanvas" width="400" height="150"></canvas>
-            <button class="signature-btn" id="signButton">Sign</button>
+        <div class="signature-input">
+            <input type="text" id="nameInput" placeholder="Type your name">
+            <button class="signature-btn" id="submitButton">Submit</button>
         </div>
+    
+        <p>Number of Submissions: <span id="submissionCount">0</span></p>
     </div>
 
     <footer>
@@ -55,6 +50,6 @@
         <p class="copyright">© 2023 STEM Program. All rights reserved.</p>
     </footer>
 
-    <script src="sign.js"></script>
+    <script src="homepage.js"></script>
 </body>
 </html>

@@ -313,7 +313,7 @@ footer {
 }
 
 .proposal ul {
-    list-style: disc;
+    list-style: none;
     padding-left: 20px;
     text-align: left;
     margin-bottom: 20px;

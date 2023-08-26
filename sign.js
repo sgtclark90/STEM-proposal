@@ -1,29 +1,35 @@
-const canvas = document.getElementById('signatureCanvas');
-const ctx = canvas.getContext('2d');
-let drawing = false;
+document.addEventListener("DOMContentLoaded", function () {
+    const submitButton = document.getElementById("submitButton");
 
-canvas.addEventListener('mousedown', () => {
-    drawing = true;
-    ctx.beginPath();
+    submitButton.addEventListener("click", function () {
+        const nameInput = document.getElementById("nameInput").value;
+
+        if (nameInput.trim() !== "") {
+            logNameLocally(nameInput);
+            updateSubmissionCount();
+            alert("Thank you for showing your support!");
+        } else {
+            alert("Please enter a valid name.");
+        }
+    });
+
+    // Load and display the submission count on page load
+    updateSubmissionCount();
 });
 
-canvas.addEventListener('mousemove', (e) => {
-    if (!drawing) return;
-    ctx.lineWidth = 2;
-    ctx.lineCap = 'round';
-    ctx.strokeStyle = '#000';
-    ctx.lineTo(e.clientX - canvas.getBoundingClientRect().left, e.clientY - canvas.getBoundingClientRect().top);
-    ctx.stroke();
-    ctx.beginPath();
-    ctx.moveTo(e.clientX - canvas.getBoundingClientRect().left, e.clientY - canvas.getBoundingClientRect().top);
-});
+function logNameLocally(name) {
+    const storedNames = JSON.parse(localStorage.getItem("visitedNames")) || [];
 
-canvas.addEventListener('mouseup', () => {
-    drawing = false;
-});
+    storedNames.push(name);
+    localStorage.setItem("visitedNames", JSON.stringify(storedNames));
 
-document.getElementById('signButton').addEventListener('click', () => {
-    const signatureImage = canvas.toDataURL(); // This is the signature in base64 format
-    // You can now send this data to your server for processing and storage
-    console.log('Signature Image:', signatureImage);
-});
+    console.log("Name logged locally:", name);
+}
+
+function updateSubmissionCount() {
+    const storedNames = JSON.parse(localStorage.getItem("visitedNames")) || [];
+    const submissionCount = storedNames.length;
+
+    const countElement = document.getElementById("submissionCount");
+    countElement.textContent = submissionCount;
+}
