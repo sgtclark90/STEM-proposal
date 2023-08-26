@@ -18,17 +18,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function logNameLocally(name) {
-    const storedNames = JSON.parse(localStorage.getItem("visitedNames")) || [];
+    const storedNames = localStorage.getItem("visitedNames") || "";
 
-    storedNames.push(name);
-    localStorage.setItem("visitedNames", JSON.stringify(storedNames));
+    if (storedNames === "") {
+        localStorage.setItem("visitedNames", name);
+    } else {
+        localStorage.setItem("visitedNames", storedNames + "," + name);
+    }
 
     console.log("Name logged locally:", name);
 }
 
 function updateSubmissionCount() {
-    const storedNames = JSON.parse(localStorage.getItem("visitedNames")) || [];
-    const submissionCount = storedNames.length;
+    const storedNames = localStorage.getItem("visitedNames") || "";
+    const submissionCount = storedNames.split(",").filter(name => name !== "").length;
 
     const countElement = document.getElementById("submissionCount");
     countElement.textContent = submissionCount;
